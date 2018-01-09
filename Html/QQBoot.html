@@ -1,10 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+<html lang="en" xmlns:name="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name:="viewport" content="width=device-width,initial-scale=1" />
+    <title>QQMusic</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/QQmyStyle.css">
 </head>
 <body>
-$END$
+    <div class="container-fluid">
+        <article class="row">
+            <div class="col-md-8 col-md-offset-3 col-sm-10 col-sm-offset-2 col-xs-12">
+                <div class="header">
+                    <img src="../img/3.png" class="headerImage">
+                    <h4>QQ音乐 音乐你的生活</h4>
+                    <div class="进度条"><img src="../img/11.png" alt="no"></div>
+                </div>
+                <span class="HeaderRight">
+                    <button class="lyric">歌词</button>
+                    <button class="LyricButton">搜索</button>
+                </span>
+            </div>
+            <div class="col-md-1 hidden-sm hidden-xs Right pull-right">
+                <a href="http://www.2345.com" style="text-decoration: none">登录</a>
+                <a href="http://www.baidu.com">退出</a>
+            </div>
+        </article>
+        <section class="row"><!--bootstarp的每一行左右都有间隙，在行内的没一个元素都会有缩进。-->
+            <div class="col-md-9 col-md-offset-3 col-sm-10 col-sm-offset-2 col-xs-12">
+                <div class="total">
+                    <div class="controls">
+                        <div class="img0"><img src="../img/12.png" alt="no"></div>
+                        <div class="img1"><img src="../img/13.png" alt="no"></div>
+                        <div class="img2"><img src="../img/14.png" alt="no"></div>
+                        <div class="img3"><img src="../img/15.png" alt="no"></div>
+                        <select class="顺序">
+                            <option value="顺序">顺序</option>
+                            <option value="循环">循环</option>
+                            <option value="随机">随机</option>
+                            <option value="单曲">单曲</option>
+                        </select>
+                    </div>
+                    <div class="datalist">
+                        <div class="nav">
+                            <ul>
+                                <li class="播放">播放列表</li>
+                                <li class="收藏">音乐收藏</li>
+                                <li class="背景">背景音乐</li>
+                                <li class="随便" ><img src="../img/9.png" alt="no"><span >随便听听</span></li>
+                                <li class="排行">排行榜</li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <div class="rightTop">
+                                <select class="下拉菜单" >
+                                    <option value="热门流行">热门流行</option>
+                                    <option value="中文金曲">中文金曲</option>
+                                    <option value="欧美流行">欧美流行</option>
+                                    <option value="日韩风">日韩风</option>
+                                    <option value="至in舞曲">至in舞曲</option>
+                                    <option value="轻音乐">轻音乐</option>
+                                </select>
+                                <button class="searchbutton">换歌</button>
+                            </div>
+
+                            <table>
+                                <thead></thead>
+                                <tbody>
+                                <tr>
+                                    <td style="width: 7%;">1</td>
+                                    <td style="width: 86%;">美人吟 - 李玲玉</td>
+                                    <td style="width:8% ;"><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>冲动的惩罚 - 刀郎</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>依恋 - 蔡淳佳</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>如果你还不明白 - 汪苏泷</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>爱忧伤 - 胡佳琛</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>梦的翅膀受了伤 - 群星</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>兰花草 - 纯音乐</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>突然想爱你 - 周华健 丁当...</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>男人坏 - 李翊君</td>
+                                    <td><img src="../img/10.png" alt="no"></td>
+                                </tr>
+                                </tbody>
+                                <tfoot class="foot" align="right">
+                                <td style="background-color:#fff"></td>
+                                <td style="background-color: #fff" align="right"><span>下一页</span></td>
+                                <td style="background-color:#fff"></td>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <span class="search">
+                    <input type="text" value="搜索歌曲，歌手，专辑 ">
+                    <button class="SearchButton pull-right">搜索</button>
+                </span>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
