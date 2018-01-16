@@ -287,7 +287,7 @@ input {
     article{
         width: calc(100% + 30px);
         overflow: hidden;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
     }
     .HeaderRight {
         /*        margin-left: 2.4%;*/
@@ -302,7 +302,7 @@ input {
         overflow: hidden;
     }
     section{
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         width: calc(100% + 30px);
         overflow: hidden;
     }
