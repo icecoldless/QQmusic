@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/css/larger.css" line="280" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e933cbb6-3560-4148-addf-1edf596ed02e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/QQmyStyle.css" afterPath="$PROJECT_DIR$/css/QQmyStyle.css" />
-    </list>
+    <list default="true" id="e933cbb6-3560-4148-addf-1edf596ed02e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +28,7 @@
       <file leaf-file-name="QQBoot.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Html/QQBoot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="-48">
               <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#article#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -126,7 +123,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="351" />
     <option name="y" value="40" />
     <option name="width" value="1400" />
@@ -298,8 +295,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24378379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -717,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Html/QQBoot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="-48">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#article#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
