@@ -2,10 +2,10 @@ body{
     background-image: url(../img/1.jpg);
     font-size: 150%;
 }
-.bod{
+/*.bod{
     border: 1px solid black;
     overflow: hidden;
-}
+}*/
 button{
     width: 46px;
     height: 18px;
@@ -51,28 +51,6 @@ article{
     height: 18px;
     border-bottom: 1px solid #314c5b;
     /*width: calc(100% - 353px);//calc函数根据屏幕大小自定义宽度，很好用。*/
-}
-@media screen and (max-width: 768px){
-    article{
-        width: calc(100%);
-    }
-    .HeaderRight {
-/*        margin-left: 2.4%;*/
-        margin-right: -2%;/*右浮动左飘没用，就像右飘。。*/
-        margin-top: -6.8%;
-        display:inline-block; /*最大宽度和最小宽度是很好用的东西，不要浪费.*/
-        /*width: 220px;*/
-        height: 18px;
-        border-bottom: 1px solid #314c5b;
-        width: calc(100% - 353px);/*calc函数根据屏幕大小自定义宽度，很好用。*/
-        float: right;
-        overflow: hidden;
-    }
-    section{
-        /*border: 1px solid black;*/
-        width: calc(100%);
-        overflow: hidden;
-    }
 }
 .lyric:visited {
     background-color: #527189;
@@ -304,4 +282,28 @@ input {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+}
+@media screen and (max-width: 768px){
+    article{
+        width: calc(100% + 30px);
+        overflow: hidden;
+        border: 1px solid black;
+    }
+    .HeaderRight {
+        /*        margin-left: 2.4%;*/
+        margin-right: -2%;/*右浮动左飘没用，就像右飘。。*/
+        margin-top: -6.8%;
+        display:inline-block; /*最大宽度和最小宽度是很好用的东西，不要浪费.*/
+        /*width: 220px;*/
+        height: 18px;
+        border-bottom: 1px solid #314c5b;
+        width: calc(100% - 353px);/*calc函数根据屏幕大小自定义宽度，很好用。*/
+        float: right;
+        overflow: hidden;
+    }
+    section{
+        border: 1px solid black;
+        width: calc(100% + 30px);
+        overflow: hidden;
+    }
 }
